@@ -17,6 +17,6 @@ if (isset($_POST))
     }
     echo "INSERT INTO materials ( name, price, createDate) VALUES ( '" . $name . "', '"
         . $price . "', '" . $createDate . "')";
-    header('Location: http://' . $_SERVER['SERVER_NAME'] . '/labweb4-main/Materials.php');
+    header('Location: http://' . $_SERVER['SERVER_NAME'] . '/Materials.php');
 }
 ?>
